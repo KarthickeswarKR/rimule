@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.get("/presale",function(req,res,next){
   res.send({
 "_id":"5623656653",
-"totalSupply":1,000,000,000.00,
+"totalSupply":1000000000,
 "startDate":"2/2/2018",
 "endDate":"2/3/2018",
 "hardCap":25500000,
