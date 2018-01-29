@@ -5,7 +5,6 @@ var app = express();
 app.set('port', process.env.PORT);
 if (!app.get('port')) {
   app.set('port', 3000);
-
 }
 
 app.use(bodyParser.json());
