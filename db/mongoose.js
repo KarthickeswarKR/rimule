@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var connect="mongodb://localhost:27017/rimuleaaa"
+var connect="mongodb://heroku_d1zpjzcs:j04sgucp1veufaqo103f6a9rtp@ds125068.mlab.com:25068/heroku_d1zpjzcs"
 var options = {
   replset: {
     socketOptions: {
